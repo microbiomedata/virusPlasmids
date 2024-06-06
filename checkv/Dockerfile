@@ -1,3 +1,7 @@
+# $ docker build . -t microbiomedata/checkv:latest --build-arg http_proxy=http://proxyout.lanl.gov:8080 --build-arg https_proxy=http://proxyout.lanl.gov:8080
+# $ docker login
+# $ docker push microbiomedata/checkv:latest
+
 From continuumio/miniconda3:4.10.0
 
 LABEL maintainer="Michal Babinski"

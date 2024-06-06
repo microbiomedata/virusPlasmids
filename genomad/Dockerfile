@@ -1,3 +1,7 @@
+# $ docker build . -t microbiomedata/genomad:latest --build-arg http_proxy=http://proxyout.lanl.gov:8080 --build-arg https_proxy=http://proxyout.lanl.gov:8080
+# $ docker login
+# $ docker push microbiomedata/genomad:latest
+
 From continuumio/miniconda3:4.11.0
 
 LABEL maintainer="Antonio Camargo (antoniop.camargo@lbl.gov)"
